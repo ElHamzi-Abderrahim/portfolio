@@ -16,3 +16,6 @@
 [submodule "rtl_dev"]
 	path = rtl_dev
 	url = https://github.com/ElHamzi-Abderrahim/rtl_dev.git
+[submodule "template_projects"]
+	path = template_projects
+	url = https://github.com/ElHamzi-Abderrahim/template_projects.git
