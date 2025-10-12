@@ -1,0 +1,18 @@
+[submodule "verif_dev"]
+	path = verif_dev
+	url = https://github.com/ElHamzi-Abderrahim/verif_dev.git
+[submodule "sw_dev"]
+	path = sw_dev
+	url = https://github.com/ElHamzi-Abderrahim/sw_dev.git
+[submodule "miscellaneous_labs"]
+	path = miscellaneous_labs
+	url = https://github.com/ElHamzi-Abderrahim/miscellaneous_labs.git
+[submodule "c_dev"]
+	path = c_dev
+	url = https://github.com/ElHamzi-Abderrahim/c_dev.git
+[submodule "script_dev"]
+	path = script_dev
+	url = https://github.com/ElHamzi-Abderrahim/script_dev.git
+[submodule "rtl_dev"]
+	path = rtl_dev
+	url = https://github.com/ElHamzi-Abderrahim/rtl_dev.git
