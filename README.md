@@ -1,4 +1,20 @@
-`This repo will contains all my portfolio projects which will be categorized under sub-repositories.`
+
+```                                                                                                                               
+       #######  ######  ######  #     #      #######         #       ######  #       ######   #     #                                                                                                
+       #     #  #    #  #       # #   #         #            #       #       # #     #    #   # #   #                                                                             
+       #     #  ######  ######  #  #  #         # #####      #       ######  ####    #####    #  #  #                                                                                          
+       #     #  #       #       #   # #         # #   #      #       #       #   #   #    #   #   # #                                                                       
+       #######  #       ######  #    ##         # #####      ######  ######  #    #  #     #  #    ##   CONCEPT.                                                                                     
+
+       OWNER   : ABDERRAHIM EL HAMZI (Jr. HARDWARE ENGINEER)
+       CONTACT : abderrahimelhamzi.dev@gmail.com                                                                                                                              
+       (nR) NO COPYRIGHT ARE RESERVED.                                                                                                                       
+```
+
+# About: 
+
+`This repository will contain almost of my portfolio projects which will be categorized under sub-repositories as the following:`
+
 
 
 ## rtl_dev (branch: *[main](https://github.com/ElHamzi-Abderrahim/rtl_dev/tree/main), [dev](https://github.com/ElHamzi-Abderrahim/rtl_dev/tree/dev)*)
