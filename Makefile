@@ -67,9 +67,11 @@ pull_all:
 
 # Checkout dev/main branches for all submodules
 checkout_b_dev: 
+	git checkout dev
 	git submodule foreach --recursive git checkout dev  | tee $(CK_DEV_LOG)
 
 checkout_b_main: 
+	git checkout main
 	git submodule foreach --recursive git checkout main  | tee $(CK_MAIN_LOG)
 
 
