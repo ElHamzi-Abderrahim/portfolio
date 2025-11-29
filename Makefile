@@ -33,20 +33,20 @@ info:
 DIR_LOG   ?= ./gitlogs
 
 # log files for fetch/pull of the all the branches
-FETCH_LOG ?= f$(DIR_LOG)/fetch.log 
-PULL_LOG  ?= f$(DIR_LOG)/pull.log 
+FETCH_LOG ?= $(DIR_LOG)/fetch.log 
+PULL_LOG  ?= $(DIR_LOG)/pull.log 
 
 # log files for checkout of dev/main branch
-CK_DEV_LOG  ?= f$(DIR_LOG)/checkout_dev.log 
-CK_MAIN_LOG ?= f$(DIR_LOG)/checkout_main.log 
+CK_DEV_LOG  ?= $(DIR_LOG)/checkout_dev.log 
+CK_MAIN_LOG ?= $(DIR_LOG)/checkout_main.log 
 
 # log files for committing of dev/main branch
-CMT_DEV_LOG  ?= f$(DIR_LOG)/commit_dev.log 
-CMT_MAIN_LOG ?= f$(DIR_LOG)/commit_main.log 
+CMT_DEV_LOG  ?= $(DIR_LOG)/commit_dev.log 
+CMT_MAIN_LOG ?= $(DIR_LOG)/commit_main.log 
 
 # log files for pushing of dev/main branch
-PUSH_DEV_LOG  ?= f$(DIR_LOG)/push_dev.log 
-PUSH_MAIN_LOG ?= f$(DIR_LOG)/push_main.log 
+PUSH_DEV_LOG  ?= $(DIR_LOG)/push_dev.log 
+PUSH_MAIN_LOG ?= $(DIR_LOG)/push_main.log 
 
 # Commit Message (TO-DO)
 COMMIT_MESSAGE ?= "Default_message_for_the_commit"
@@ -67,23 +67,23 @@ pull_all:
 
 # Checkout dev/main branches for all submodules
 checkout_b_dev: 
-	git submodule foreach --recursive git checkout dev  | tee tee $(CK_DEV_LOG)
+	git submodule foreach --recursive git checkout dev  | tee $(CK_DEV_LOG)
 
 checkout_b_main: 
-	git submodule foreach --recursive git checkout main  | tee tee $(CK_MAIN_LOG)
+	git submodule foreach --recursive git checkout main  | tee $(CK_MAIN_LOG)
 
 
 # Commit the staged changes of dev branch of submodules
 update_dev_commit: checkout_b_dev
-	git commit -m "update submodule commit (dev branch)" | tee tee $(CMT_DEV_LOG)
+	git commit -m "update submodule commit (dev branch)" | tee $(CMT_DEV_LOG)
 
 update_main_commit: checkout_b_main
-	git commit -m "update submodule commit (main branch)" | tee tee $(CMT_MAIN_LOG)
+	git commit -m "update submodule commit (main branch)" | tee $(CMT_MAIN_LOG)
 
 
 # Push to remote dev/main 
 push_dev: update_dev_commit
-	git push origin dev | tee tee $(PUSH_DEV_LOG)
+	git push origin dev | tee $(PUSH_DEV_LOG)
 
 push_main: update_main_commit
-	git push origin main | tee tee $(PUSH_MAIN_LOG)
+	git push origin main | tee $(PUSH_MAIN_LOG)
