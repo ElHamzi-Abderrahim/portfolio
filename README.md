@@ -27,6 +27,12 @@ All the projects that are categorized are not containing any AI generated code o
 All project are done in Linux based OS (XUbuntu), which is used as a virtual machine under virtualization sw VirtualBox, and I'm connecting to the VM using SSH.
 
 
+## :arrow_heading_down:	Instructions:
+- Cloning the project:
+    ```
+    git clone --recurse-submodules git@github.com:ElHamzi-Abderrahim/portfolio.git
+    ```
+
 # Categories:
 ## :card_index_dividers: rtl_dev (*[main](https://github.com/ElHamzi-Abderrahim/rtl_dev/tree/main), [dev](https://github.com/ElHamzi-Abderrahim/rtl_dev/tree/dev)*)
     Description: Contains all RTL designs that I have developed.
@@ -72,6 +78,13 @@ All project are done in Linux based OS (XUbuntu), which is used as a virtual mac
 
 
 
+## :card_index_dividers: script_dev (*[main](https://github.com/ElHamzi-Abderrahim/script_dev/tree/main), [dev](https://github.com/ElHamzi-Abderrahim/script_dev/tree/dev)*)
+    Description: Contains all developed scripts.
+    Keywords   : Python, Tcl, Makefile.
+    Tools      : - 
+
+### :hammer_and_wrench: Projects: 
+- Benchmarking of AMD PCIe interfaces with different configurations (Project on Gitlab, in [*main*](https://gricad-gitlab.univ-grenoble-alpes.fr/elhamzia/pcie-nnawaq-internship.git) under `./bench_marking/` directory)
 
 
 
