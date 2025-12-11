@@ -13,9 +13,21 @@
 
 # About: 
 
-`This repository will contain almost of my portfolio projects which will be categorized under sub-repositories as the following:`
+`The aim behind this personal initiative "OpenToLearn" is be able to represent my techinal skills in a more organized way under different categories, also because of, in my personal opinion, that the resume (aka CV) sounds a useless document to be used in order to represent the technical skills of a condidate, which is the main focus for recuiters, who are mainly wants to know about the work that has been done by the condidate, the way it is done and the quality of that work. This repository will contain almost of my portfolio projects which will be categorized under sub-repositories as the following:`
+
+## :low_brightness: Notes:
+All the projects that are categorized are not containing any AI generated code or text (at least so far). The following table will represent on which project I have used AI tools to help me accomplish it. 
+
+|       Projet    |             Comments                     |
+| :-------------: | :--------------------------------------- |
+|    ---          |- What is used for                        |
 
 
+## :factory: Setup:
+All project are done in Linux based OS (XUbuntu), which is used as a virtual machine under virtualization sw VirtualBox, and I'm connecting to the VM using SSH.
+
+
+# Categories:
 ## :card_index_dividers: rtl_dev (*[main](https://github.com/ElHamzi-Abderrahim/rtl_dev/tree/main), [dev](https://github.com/ElHamzi-Abderrahim/rtl_dev/tree/dev)*)
     Description: Contains all RTL designs that I have developed.
     Keywords   : SystemVerilog, Makefile, Testbench.
