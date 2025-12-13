@@ -69,7 +69,7 @@ SUBM_BRANCH ?= main
 # Create temporarely gitlogs directory
 create_log_dir:
 	@echo "INFO: Create $(DIR_LOG) directory for saving log of launched git commands."
-	mkdir $(DIR_LOG)
+	mkdir -p $(DIR_LOG)
 
 # Status of dev/main branch recursively
 status_dev: create_log_dir checkout_b_dev
