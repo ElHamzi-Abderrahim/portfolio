@@ -16,7 +16,7 @@ body:
     attributes:
       label: Contact Details
       description: Who created the project?
-      placeholder: e.g: email@example.com
+      placeholder: e.g email@example.com
       value: abderrahimelhamzi.dev@gmail.com
     validation: 
       required: false
