@@ -4,7 +4,7 @@ description: Create a new project main checklist to follow.
 labels: ['new project']
 assignees: 
   - Abderrahim EL H.
-type: textarea
+
 body: 
   - type: markdown
     attributes: 
