@@ -8,7 +8,7 @@ assignees:
 body: 
   - type: markdown
     attributes: 
-    value: Please fill the necessary elements and check the steps that are done.
+      value: Please fill the necessary elements and check the steps that are done.
 
   - type: input
     id: contact
