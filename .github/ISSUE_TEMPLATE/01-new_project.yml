@@ -17,7 +17,7 @@ body:
       description: Who created the project?
       placeholder: e.g email@example.com
       value: abderrahimelhamzi.dev@gmail.com
-    validation: 
+    validations: 
       required: false
   
   - type: textarea
@@ -27,7 +27,7 @@ body:
       description: By providing the target skills to learn/improve/master.
       placeholder: Briefly explain for what reason this project is created for.
       value: e.g. Learning how to used GDB and to program in C.
-    validation:
+    validations:
       required: True
 
   - type: dropdown
@@ -40,7 +40,7 @@ body:
         - Windows-10
         - Other
       default: Ubuntu 25.10
-    validation: 
+    validations: 
       required: True
     
   - type: dropdown
