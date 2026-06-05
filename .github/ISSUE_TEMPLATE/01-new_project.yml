@@ -62,17 +62,14 @@ body:
     attributes:
       label: Select the potential elements that will be present in the project.
       options:
-        - Template Project
-        - Hardware Design
-        - Hardware Functional Verification  
-        - HW Design and Verification
-        - FPGA Design
-        - HW/SW co-design
-        - Embedded Software
-        - Python Tools
-        - Scripting Tools (tcl, MakeFile, bash...)
+        - label: Template Project
+        - label: Hardware Design
+        - label: Hardware Functional Verification  
+        - label: HW Design and Verification
+        - label: FPGA Design
+        - label: HW/SW co-design
+        - label: Embedded Software
+        - label: Python Tools
+        - label: Scripting Tools (tcl, MakeFile, bash...)
       
-
-
-
     
