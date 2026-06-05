@@ -2,7 +2,7 @@ name: New Project
 title: "[Project Name]"
 description: Create a new project main checklist to follow.
 labels: ['new project']
-asignees: 
+assignees: 
   - Abderrahim EL H.
 type: textarea
 body: 
