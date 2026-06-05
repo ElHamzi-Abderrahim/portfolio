@@ -39,7 +39,7 @@ body:
         - Ubuntu 25.10
         - Windows-10
         - Other
-      default: Ubuntu 25.10
+      default: 0
     validations: 
       required: True
     
