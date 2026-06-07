@@ -19,3 +19,6 @@
 [submodule "template_projects"]
 	path = template_projects
 	url = https://github.com/ElHamzi-Abderrahim/template_projects.git
+[submodule ".github"]
+	path = .github
+	url = https://github.com/ElHamzi-Abderrahim/issues_templates.git
