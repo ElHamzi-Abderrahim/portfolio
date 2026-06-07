@@ -11,14 +11,22 @@ body:
       value: Please fill the necessary elements and check the steps that are done.
 
   - type: input
+    id: project-name
+    attributes:
+      label: Project Title
+      description: Project title in github
+      placeholder: e.g gdb_labs
+    validations: 
+      required: True
+
+  - type: input
     id: contact
     attributes:
       label: Contact Details
       description: Who created the project?
       placeholder: e.g email@example.com
-      value: abderrahimelhamzi.dev@gmail.com
     validations: 
-      required: false
+      required: True
   
   - type: textarea
     id: project-goal
